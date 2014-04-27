@@ -8,3 +8,5 @@ var game = createGame({
         'blocks/stone',
         'blocks/dirt']
 });
+var container = document.body;
+game.appendTo(container);
