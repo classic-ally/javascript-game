@@ -10,3 +10,10 @@ var game = createGame({
 });
 var container = document.body;
 game.appendTo(container);
+
+var createPlayer = require('voxel-player')(game);
+
+var user = createPlayer('player.png')
+user.possess();
+user.yaw.position.set(0, 100, 0);
+
