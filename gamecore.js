@@ -5,6 +5,6 @@ var game = createGame({
     texturePath: texturePath,
     materials: [
         ['blocks/grass_top', 'blocks/dirt', 'blocks/grass_side'],
-        'blocks/stone'
+        'blocks/stone',
         'blocks/dirt']
 });
