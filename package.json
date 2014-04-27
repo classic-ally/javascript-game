@@ -7,5 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "voxel-engine": "^0.20.1",
+    "programmerart-textures": "^2.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^3.44.2"
+  }
 }
