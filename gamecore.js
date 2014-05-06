@@ -1,18 +1,8 @@
-var textures = "http://commondatastorage.googleapis.com/voxeltextures/"
 var createGame = require('voxel-hello-world');
+var textures = require('painterly-textures')(__dirname)
 
+var game = createGame({texturePath: textures})
 
-var game = require('voxel-hello-world')({
-    materials: [
-    ['grass', 'dirt', 'grass_dirt'],
-    'obsidian',
-    'brick',
-    'grass',
-    'plank',
-    'whitewool'
-    ],
-    texturePath: 'textures/',
-});
 
 window.generator = perlin('foo', 0, 5)
 var chunkSize = 32
