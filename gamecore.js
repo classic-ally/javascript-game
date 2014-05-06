@@ -1,6 +1,7 @@
 var textures = "http://commondatastorage.googleapis.com/voxeltextures/"
 var createGame = require('voxel-hello-world');
 
+
 var game = require('voxel-hello-world')({
     materials: [
     ['grass', 'dirt', 'grass_dirt'],
@@ -9,7 +10,8 @@ var game = require('voxel-hello-world')({
     'grass',
     'plank',
     'whitewool'
-    ]
+    ],
+    texturePath: 'textures/',
 });
 
 window.generator = perlin('foo', 0, 5)
