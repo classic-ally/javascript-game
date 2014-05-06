@@ -1,13 +1,20 @@
-var texturePath = require('programmerart-textures')('');
-var createGame = require('voxel-engine');
+var textures = "http://commondatastorage.googleapis.com/voxeltextures/"
+var createGame = require('voxel-hello-world');
 
-var game = createGame({
-    texturePath: texturePath,
+var game = require('voxel-hello-world')({
     materials: [
-        ['blocks/grass_top', 'blocks/dirt', 'blocks/grass_side'],
-        'blocks/stone',
-        'blocks/dirt']
+    ['grass', 'dirt', 'grass_dirt'],
+    'obsidian',
+    'brick',
+    'grass',
+    'plank',
+    'whitewool'
+    ]
 });
+
+window.generator = perlin('foo', 0, 5)
+var chunkSize = 32
+
 var container = document.body;
 game.appendTo(container);
 
