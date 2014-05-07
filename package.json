@@ -21,7 +21,8 @@
     "toolbar": "0.0.5",
     "voxel-debris": "0.0.4",
     "voxel-simplex-terrain": "0.0.3",
-    "url": "^0.10.1"
+    "url": "^0.10.1",
+    "voxel-forest": "0.0.1"
   },
   "devDependencies": {
     "browserify": "^3.44.2",

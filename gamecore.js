@@ -27,7 +27,6 @@ game.materials.paint(mesh, 'obsidian')
 
 
 
-
 var container = document.body;
 game.appendTo(container);
 
